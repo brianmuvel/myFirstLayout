@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+section main{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+section header{
+    display: flex;
+    width: 70%;
+    height: 350px;
+    padding-top: 34px;
+    flex-direction: column;
+    align-items: center;
+}
+
+section main article{
+    justify-content: space-between;
+}
+nav{
+    width: 70%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-indent: 0px;
+}
+nav ul li{
+    list-style: none;
+    margin: 25px;
+    color: #8E8E8E;
+}
+.logotipo{
+    display: inline-block;
+    width: 30%;
+}
+.header-image{
+    background-color: #F9FFF2;
+    background-image: url(../assets/imagenes/MaskGroup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.boton-azul{
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+    border-color: transparent;
+    color: #fff;
+    background-color: #410FF8;
+    font-size: 16px;
+    font-weight: 800;
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 34%;
+    height: 150px;
+    text-align: center;
+    margin-top: 35px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 13px;
+    color: #211D1D;
+}
+.parrafo p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #211D1D;
+    line-height: 12px;
+}
+strong{
+    color: #23B79E;
+}
+article ul{
+    text-indent: 0px;
+    list-style: none;
+}
+article ul li{
+    font-size: 9px;
+}
+.icon{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../assets/imagenes/checkmark-onpurple.png);
+}
+main article{
+    width: 30%;
+    padding: 25px;
+    border: solid 2px #D3D3D3;
+    border-radius: 4px;
+}
+article button{
+    width: 100%!important;
+}

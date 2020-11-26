@@ -1,0 +1,85 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    list-style: none;
+}
+.flex-container{
+    display: flex;
+}
+.imagen1{
+    height: 50vh;
+    background: url(../assets/imagenes/pizza.jpg) center no-repeat;
+}
+.imagen2{
+    height: 50vh;
+    background: url(../assets/imagenes/mesa.jpg) center no-repeat;
+}
+.formulario{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 30px;
+    background: white;
+    width: 33%;
+    min-height: 190px;
+    border: 1px #rgba(179,168,50,0.3) solid;
+    border-radius: 8px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.6);
+}
+h1{
+    color: rgb(183, 84, 52);
+}
+input{
+    width: 100%;
+    margin: 3px 0;
+    padding: 8px 0;
+    background: rgba(179,168,50,0.1);
+    border: 1px solid rgba(179,168,50,0.3);
+    border-radius: 5px;
+    transition: opacity 0.3s ease-out;
+}
+input:hover{
+    opacity: 0.5;
+    background-color: #fff;
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 0 4px rgba(179,168,50,0.1);
+}
+label{
+    font-size: 13px;
+    color: #524c0d;
+    
+}
+input::placeholder{
+    color: #524c0d;
+}
+.input-form{
+    margin-top: 20px;
+}
+
+.button{
+    width: 50%;
+    padding:5px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 100px;
+    font-weight: 900;
+    background-color: #B3A832;
+    color: #524c0d;
+    border: 0;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+    background-color: #B3A832;
+    box-shadow: 0 0 0 0;
+}

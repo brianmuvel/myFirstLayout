@@ -81,5 +81,5 @@ input::placeholder{
 .button:hover{
     opacity: 0.8;
     background-color: #B3A832;
-    box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0 transparent;
 }
